@@ -1,0 +1,23 @@
+{
+  "name": "queue-deduplicator",
+  "version": "1.0.0",
+  "description": "Deduplicates messages of a SQS queue and saves it in a file.",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sqs",
+    "aws",
+    "deduplicate"
+  ],
+  "author": "Eduardo Quagliato <eduardo.quagliato@quintoandar.com.br>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "aws-sdk": "^2.381.0",
+    "dotenv": "^6.2.0",
+    "moment": "^2.23.0",
+    "sha1": "^1.1.1"
+  }
+}
